@@ -13,7 +13,7 @@ const count = ref(0)
 <div>
 
     <header class="header">
-        <a href="#" class="logo"><img src="./images/image.png" alt=""></a>
+        <a href="#" class="logo"><img src="/images/image.png" alt=""></a>
         <div class="fas fa-bars"></div>
         <nav class="navbar">
             <ul>
@@ -22,6 +22,16 @@ const count = ref(0)
                 <li><a href="#service">services</a></li>
                 <li><a href="#portfolio">portfolio</a></li>
                 <li><a href="#team">team</a></li>
+                <li class="dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <div class="dropdown-content">
+                        <li><a class="" href="#">Action</a></li>
+                        <li><a class="" href="#">Another action</a></li>
+                    </div>
+                </li>
+
                 <li><a href="careers.html">career</a></li>
                 <li><a href="#contact">contact</a></li>
                 <li><a href="#faq">FAQ</a></li>
@@ -29,13 +39,83 @@ const count = ref(0)
         </nav>
     </header>
 
-  <section id="home" class="home">
+
+
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/images/img3.jpg" style="maxWidth:100%;height:600px;objectFit:cover;" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/img3.jpg" style="maxWidth:100%;height:600px;objectFit:cover;" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="/images/img3.jpg" style="maxWidth:100%;height:600px;objectFit:cover;" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+
+
+    <!-- <section style="border:3px solid black">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                <img src="/images/testimonial-1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/testimonial-2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/testimonial-3.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                <img src="/images/testimonial-4.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            </div>
+    </section> -->
+
+
+
+  <!-- <section id="home" class="home">
       <h1>Bring your Business Online</h1>
       <h2>with IT Company Services</h2>
     <div class="wave wave1"></div>
     <div class="wave wave2"></div>
     <div class="wave wave3"></div>
-  </section>
+  </section> -->
 
   <section id="about" class="about">
     <h1 class="heading">about us</h1>
@@ -160,7 +240,7 @@ const count = ref(0)
         <div class="owl-carousel testimonials-carousel">
             <div class="testimonial-item row align-items-center">
                 <div class="testimonial-img">
-                    <img src="./images/testimonial-1.jpg" alt="Testimonial image">
+                    <img src="/images/testimonial-1.jpg" alt="Testimonial image">
                 </div>
                 <div class="testimonial-text">
                     <h3>Person-1</h3>
@@ -173,7 +253,7 @@ const count = ref(0)
             </div>
             <div class="testimonial-item row align-items-center">
                 <div class="testimonial-img">
-                    <img src="./images/testimonial-2.jpg" alt="Testimonial image">
+                    <img src="/images/testimonial-2.jpg" alt="Testimonial image">
                 </div>
                 <div class="testimonial-text">
                     <h3>Person-2</h3>
@@ -186,7 +266,7 @@ const count = ref(0)
             </div>
             <div class="testimonial-item row align-items-center">
                 <div class="testimonial-img">
-                    <img src="./images/testimonial-3.jpg" alt="Testimonial image">
+                    <img src="/images/testimonial-3.jpg" alt="Testimonial image">
                 </div>
                 <div class="testimonial-text">
                     <h3>Person-3</h3>
@@ -199,7 +279,7 @@ const count = ref(0)
             </div>
             <div class="testimonial-item row align-items-center">
                 <div class="testimonial-img">
-                    <img src="./images/testimonial-4.jpg" alt="Testimonial image">
+                    <img src="/images/testimonial-4.jpg" alt="Testimonial image">
                 </div>
                 <div class="testimonial-text">
                     <h3>Person-4</h3>
@@ -212,7 +292,7 @@ const count = ref(0)
             </div>
             <div class="testimonial-item row align-items-center">
                 <div class="testimonial-img">
-                    <img src="./images/testimonial-5.jpg" alt="Testimonial image">
+                    <img src="/images/testimonial-5.jpg" alt="Testimonial image">
                 </div>
                 <div class="testimonial-text">
                     <h3>Person-5</h3>
@@ -263,7 +343,7 @@ const count = ref(0)
   <div class="row">
       <div class="card">
           <div class="image">
-              <img src="./images/pexels-andrea-piacquadio-845434.jpg" alt="Team member 1">
+              <img src="/images/pexels-andrea-piacquadio-845434.jpg" alt="Team member 1">
           </div>
           <div class="info">
               <h3>Schott Watkins</h3>
@@ -280,7 +360,7 @@ const count = ref(0)
   <div class="row">
       <div class="card">
           <div class="image">
-              <img src="./images/pexels-vinicius-wiesehofer-1130624.jpg" alt="Team member 1">
+              <img src="/images/pexels-vinicius-wiesehofer-1130624.jpg" alt="Team member 1">
           </div>
           <div class="info">
               <h3>Nicole Bell</h3>
@@ -297,7 +377,7 @@ const count = ref(0)
   <div class="row">
       <div class="card">
           <div class="image">
-              <img src="./images/pexels-hussein-altameemi-2776353.jpg" alt="Team member 1">
+              <img src="/images/pexels-hussein-altameemi-2776353.jpg" alt="Team member 1">
           </div>
           <div class="info">
               <h3>John Doe</h3>
@@ -314,7 +394,7 @@ const count = ref(0)
   <div class="row">
       <div class="card">
           <div class="image">
-              <img src="./images/pexels-andrea-piacquadio-745136.jpg" alt="Team member 1">
+              <img src="/images/pexels-andrea-piacquadio-745136.jpg" alt="Team member 1">
           </div>
           <div class="info">
               <h3>Rose Matthews</h3>
@@ -338,7 +418,7 @@ const count = ref(0)
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30711243.17762776!2d64.4398422293091!3d20.011408266548177!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30635ff06b92b791%3A0xd78c4fa1854213a6!2sIndia!5e0!3m2!1sen!2sin!4v1644684739958!5m2!1sen!2sin" width="100%" height="auto" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
     </div>
     <div class="contact-form">
-        <form action="./contactme.php" method="POST">
+        <form action="/contactme.php" method="POST">
             <input type="text" name="name" placeholder="Name" class="contact-form-txt" required>
             <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10" class="contact-form-phone">
             <input type="email" name="email" placeholder="Email" class="contact-form-email" required>
