@@ -5,6 +5,26 @@ defineProps({
   msg: String,
 })
 
+$(document).ready(function(){
+  $(".clients-carousel").owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    responsive: {
+      0: {
+        items: 2
+      },
+      768: {
+        items: 4
+      },
+      1024: {
+        items: 6
+      }
+    }
+  });
+});
+
+
 const count = ref(0)
 </script>
 
@@ -285,11 +305,11 @@ Data Analysis.
 </div>
 
 <section>
-    <div class="pt-5 pb-5">
+  <div class="pt-5 pb-5">
            
-        <div class="row">
-            <div class="section-head col-sm-12" id="service">
-                <h1>Our Partners</h1>
+           <div class="row">
+               <div class="section-head col-sm-12" id="service">
+                   <h1>Our Partners</h1>
         
         <div class="owl-carousel clients-carousel" style="text-align: center; justify-content: center;">
       
@@ -319,49 +339,48 @@ Data Analysis.
 <section id="contact" class="contact">
     <h1 class="heading">Contact Us</h1>
     <div class="contact-container">
-        <!-- Contact Details and Form Container -->
-        <div class="contact-details-and-form">
-            <!-- Contact Details -->
-            <div class="contact-details">
-                <h2>Location</h2>
-                <p>Strathmore University Student Centre, Keri Road<br>Nairobi, Kenya</p>
-                
-                <h2>Email</h2>
-                <p><a href="mailto:ilabafrica@strathmore.edu">itoutsourcing@strathmore.edu</a></p>
-                
-                <h2>Phone</h2>
-                <p><a href="tel:+254703034616">+254 703 034 616</a></p>
-                
-                <h2>Working Hours</h2>
-                <p>Mon - Fri<br>8:00 AM - 5:00 PM</p>
-            </div>
-
-            <!-- Contact Form -->
-            <div class="contact-form">
-                <form action="./contactme.php" method="POST">
-                    <input type="text" name="name" placeholder="Name" class="contact-form-txt" required>
-                    <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10" class="contact-form-phone">
-                    <input type="email" name="email" placeholder="Email" class="contact-form-email" required>
-                    <textarea placeholder="Your Message" name="message" class="contact-form-txtarea" required></textarea>
-                    <input type="submit" value="Submit" name="submit" class="contact-form-btn">
-                </form>
-            </div>
+        
+        <!-- Contact Details -->
+        <div class="contact-details">
+            <h2>Location</h2>
+            <p>Strathmore University Student Centre, Keri Road<br>Nairobi, Kenya</p>
+            
+            <h2>Email</h2>
+            <p><a href="mailto:ilabafrica@strathmore.edu">itoutsourcing@strathmore.edu</a></p>
+            
+            <h2>Phone</h2>
+            <p><a href="tel:+254703034616">+254 703 034 616</a></p>
+            
+            <h2>Working Hours</h2>
+            <p>Mon - Fri<br>8:00 AM - 5:00 PM</p>
         </div>
 
-        <!-- Map Section -->
-        <section id="map" class="map">
-            <div class="contact-map">
-                <!-- Google Maps iframe -->
-                <iframe 
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.008028693293!2d36.81471141744388!3d-1.3103990000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a52993c8b7%3A0x98d5e6ecb1b4989a!2sStrathmore%20University!5e0!3m2!1sen!2ske!4v1644684739958!5m2!1sen!2sin" 
-                    width="100%" 
-                    height="450" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy">
-                </iframe>
-            </div>
-        </section>
+        <!-- Contact Form -->
+        <div class="contact-form">
+            <form action="./contactme.php" method="POST">
+                <input type="text" name="name" placeholder="Name" class="contact-form-txt" required>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required placeholder="Contact number" maxlength="10" class="contact-form-phone">
+                <input type="email" name="email" placeholder="Email" class="contact-form-email" required>
+                <textarea placeholder="Your Message" name="message" class="contact-form-txtarea" required></textarea>
+                <input type="submit" value="Submit" name="submit" class="contact-form-btn">
+            </form>
+        </div>
+
+    </div>
+</section>
+
+<!-- Map Section -->
+<section id="map" class="map">
+    <div class="contact-map">
+        <!-- Google Maps iframe -->
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15955.008028693293!2d36.81471141744388!3d-1.3103990000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10a52993c8b7%3A0x98d5e6ecb1b4989a!2sStrathmore%20University!5e0!3m2!1sen!2ske!4v1644684739958!5m2!1sen!2sin" 
+            width="100%" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
     </div>
 </section>
 
