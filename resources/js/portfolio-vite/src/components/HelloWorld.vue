@@ -21,6 +21,9 @@ const count = ref(0)
         </form>
     </div>
 
+
+    
+
     <div class="fas fa-bars"></div>
     <nav class="navbar">
        <ul>
@@ -70,11 +73,11 @@ const count = ref(0)
 
   <section id="about" class="about">
 
-<section id="about" class="about">
+<section id="home" class="">
             <h1 class="heading">About Us</h1>
             <div class="row">
                 <div class="content">
-                    <p>This unit focuses on customising and developing solutions for clients by providing advice and end-to-end support for the entire product-development life-cycle in organisations, through managing, implementing, deploying and administering IT systems solutions.</p>
+                    <p>This unit focuses on customising and developing solutions for clients by providing advice and end-to-end support for the entire product-development life-cycle in organisations.</p>
                 </div>
             </div>
 
@@ -86,7 +89,7 @@ const count = ref(0)
                 <div class="col-lg-4 col-sm-6">
                     <div class="item">
                         <h6>Web Development</h6>
-                        <p>Website development solutions such as dynamic E-commerce websites,Content Management Systems (CMS),bespoke web applications,insightful reporting dashboards and comprehensive website maintenance and support services.<br>SKILLS<br>HTML, CSS,PHP, Node.js, Python,JavaScript(React, Angular, Vue.js)
+                        <p>Website development solutions such as dynamic E-commerce websites,Content Management Systems (CMS),bespoke web applications,insightful reporting dashboards and comprehensive website maintenance and support services.<br><br>SKILLS<br>HTML, CSS,PHP, Node.js, Python,JavaScript(React, Angular, Vue.js)
                             Django, Ruby on Rails, Express.js
                             MySQL, PostgreSQL,MongoDB
                             </p>
@@ -95,38 +98,60 @@ const count = ref(0)
                 <div class="col-lg-4 col-sm-6">
                     <div class="item">
                         <h6>Mobile Development</h6>
-                        <p>JavaScript/
-                           Android/IOs/
-                           Kotlin
-                            </p>
+                        <p>We have Extensive experience in creating dynamic software applications that run on mobile devices. We pride in development of native, cross platform native and hybrid mobile applications as well as progress web applications.<br><br>SKILLS<br>
+                        JavaScript,
+                           Android/IOs,
+                           Kotlin,JavaScript,Kotlin/RESTful APIs,Mobile libraries for networking, Profilling and deubbing mobile applications</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="item">
                         <h6>Project Management</h6>
-                        <p>Comprehensive project management expertise, underscoring our commitment to delivering successful outcomes for our clients through seamless planning, execution, and completion of projects, utilizing industry-best practices and methodologies.</p>
+                        <p>We possess Comprehensive project management expertise, underscoring our commitment to delivering successful outcomes for our clients through seamless planning, execution, and completion of projects, utilizing industry-best practices and methodologies.<br><br>SKILLS<br>
+
+Leadership Skills,
+Stakeholder Management,
+Client Management,
+Agile,Scrum,Kanban,Waterfall,ITIL,PRINCE2,
+Google Workspace,Microsoft Project,Jira,Asana,Trello,Clickup,Monday.com.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="item">
                         <h6>System Testing</h6>
-                        <p>Test plans
-                           Manual and Automated Testing
+                        <p>We have extensive Knowledge and experience in manual and automated testing of software applications to evaluate their compliance to system requirements and end user needs.<br><br>SKILLS<br>
+Understanding pr software applications testing process,
+Experience in Development of Test plans,
+Hands-on experience with automated testing tools like Master selenium and Manual Testing.
+
+
+<br><br>System Training and Support<br>
+We have a proven record in system end user training and level 1&2 system support.
+Prepare Training Manuals
+System User training
+
                             </p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="item">
                         <h6>UI/UX Designing</h6>
-                        <p>User Experience (UX) and User Interface (UI) Design</p>
+                        <p>We work with clients to understand their data and formats they would want such data presented. This include converting manual to digital data, cleaning existing digital data as well as analysis the data to achieve client’s needs.<br><br>SKILLS<br>
+                          SSL implementation,
+User Experience (UX) and User Interface (UI) Design,
+Theme Development and Customization
+
+</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-6">
                     <div class="item">
                         <h6>Data Entry</h6>
-                        <p>Typing/
-                            Data Conversion/ Formatting/Cleanup/
-                            Trascription
+                        <p>We work with clients to understand their data and formats they would want such data presented. This include converting manual to digital data, cleaning existing digital data as well as analysis the data to achieve client’s needs.<br><br>SKILLS<br>
+Typing,
+Data Conversion/ Formatting/Cleanup,
+Transcription,
+Data Analysis.
                             </p>
                     </div>
                 </div>
@@ -144,52 +169,53 @@ const count = ref(0)
             </p>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_one"><i class="fa fa-laptop"></i></span>
-            <h6>Web App Development</h6>
-            <p>Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether It Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For The Challenge.</p>
-          </div>
-        </div>
-		<div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+  <div class="item">
+    <h6>Web App Development</h6>
+    <p>Our Custom Web Development Services Include Both Front-End And Back-End Development. Whether It Is Enhancing An Existing App Or Architecting An Enterprise App, Our Developers Are Up For The Challenge.</p>
+  </div>
+</div>
+
+<div class="col-lg-4 col-sm-6">
+  <div class="item">
             <h6>Revenue Management System</h6>
             <p>We Have Expertise In Creating Multi-Platform Revenue Management Systems, Solutions For Both Android And IOS Devices. Using Laravel, Vue js, We Offer Custom Web Apps That Runs Smoothly On Multiple Platforms.</p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_two"><i class="fa fa-android"></i></span>
+  <div class="item">
             <h6>Web Portals</h6>
             <p>We Have Expertise In Creating Multi-Platform Web Apps Solutions For Both Android And IOS Devices. Using Laravel, Vue Js, And React Native, We Offer Custom Mobile App That Runs Smoothly On Multiple Platforms.</p>
           </div>
         </div>
         <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+  <div class="item">
             <h6>Wildlife Conservancy Systems</h6>
             <p>The Wildlife Conservancy Systems that we provide have their own set of charms.</p>
           </div>
         </div>
       
-	 <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+        <div class="col-lg-4 col-sm-6">
+  <div class="item">
             <h6>Business Process Management Systems(BPM)</h6>
             <p>The Business Process Management Systems(BPM) that we provide have their own set of charms.</p>
           </div>
         </div>
-	 <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+        <div class="col-lg-4 col-sm-6">
+  <div class="item">
             <h6>Monitoring & Evaluation Systems(M&E)</h6>
             <p>The Monitoring & Evaluation Systems(M&E) that we provide have their own set of charms.</p>
           </div>
         </div>
     
-	 <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+        <div class="col-lg-4 col-sm-6">
+  <div class="item">
             <h6>Payment Gateway Solutions</h6>
             <p>The Payment Gateway Solutions that we provide have their own set of charms.</p>
           </div>
         </div>
       
-	 <div class="col-lg-4 col-sm-6">
-          <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+        <div class="col-lg-4 col-sm-6">
+  <div class="item">
             <h6>Enterprise Resource Planning Systems(ERPs)</h6>
             <p>The Enterprise Resource Planning Systems(ERPs) that we provide have their own set of charms.</p>
           </div>
@@ -197,7 +223,7 @@ const count = ref(0)
 		  
 		  
 		  <div class="col-lg-4 col-sm-6">
-		   <div class="item"> <span class="icon feature_box_col_three"><i class="fa fa-magic"></i></span>
+  <div class="item">
             <h6>Electronic Document and Records ManagementSystems(EDRMS)</h6>
             <p>The Payment Gateway Solutions that we provide have their own set of charms.</p>
           </div>
@@ -221,8 +247,6 @@ const count = ref(0)
         <div class="col-lg-4 col-sm-6">
           
             <div class="item">
-        <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
-        <h6>Video1</h6>
         
         <!-- Video content -->
         <video oncontextmenu="return false;" width="320" height="240" controls>
@@ -230,40 +254,61 @@ const count = ref(0)
         </video>
         
 
-        <p>This video shows our Electronic Document Management System .<br><br><br></p>
+        <p>Revenue Management System.<br><br><br></p>
     </div>
 </div>
-
         
            <div class="col-lg-4 col-sm-6">
     <div class="item">
-        <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
-        <h6>Video2</h6>
         
         <!-- Video content -->
         <video oncontextmenu="return false;" width="320" height="240" controls>
             <source src="C:/htdocs/ITOutsourcing-Website/images/Video2.mp4" type="video/mp4">
         </video>
 
-        <p>This video show Revenue Management System.<br><br><br></p>
+        <p>Electronic Document Management System .<br><br><br></p>
     </div>
 </div>
 <div class="col-lg-4 col-sm-6">
     <div class="item">
-        <span class="icon feature_box_col_four"><i class="fa fa-database"></i></span>
-        <h6>Video2</h6>
         
         <!-- Video content -->
         <video oncontextmenu="return false;" width="320" height="240" controls>
             <source src="C:/htdocs/ITOutsourcing-Website/images/Video1.mp4" type="video/mp4">
         </video>
 
-        <p>This video shows our wbsites.<br><br><br></p>
+        <p>Our wbsites.<br><br><br></p>
     </div>
         </div>
       </div>
     </div>
 </div>
+
+<section>
+    <div class="pt-5 pb-5">
+           
+        <div class="row">
+            <div class="section-head col-sm-12" id="service">
+                <h1>Our Partners</h1>
+        
+        <div class="owl-carousel clients-carousel" style="text-align: center; justify-content: center;">
+      
+          
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img3.png" alt="Partner1 Logo">
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img4.png" alt="Partner2 Logo">
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img5.png" alt="Partner3 Logo">
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img6.png" alt="Partner4 Logo">
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img7.png" alt="Partner5 Logo">
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img8.png" alt="Partner6 Logo">
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img9.png" alt="Partner7 Logo">
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img10.png" alt="Partner6 Logo">
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img11.png" alt="Partner8 Logo">
+          <img src="C:\htdocs\portfolio\resources\js\portfolio-vite\public\images/img12.png" alt="Partner9 Logo">         
+        </div>
+      </div>
+      </div>
+    </div>
+</section>
 
 <div class="communicate">
     <h3>OUR CONTACT DETAILS.</h3>

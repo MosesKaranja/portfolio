@@ -23,19 +23,19 @@ body{
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: #002e5f;
+    color: #EC7D30;
     position: relative;
     letter-spacing: .2rem;
 }
 
-.heading::before, .heading::after, .clients .section-header h2::before, .clients .section-header h2::after, .section-head h1::before, .section-head h1::after, .testimonials .section-header h2::before, .testimonials .section-header h2::after, .section-head-1 h4::before, .section-head-1 h4::after{
+/* .heading::before, .heading::after, .clients .section-header h2::before, .clients .section-header h2::after, .section-head h1::before, .section-head h1::after, .testimonials .section-header h2::before, .testimonials .section-header h2::after, .section-head-1 h4::before, .section-head-1 h4::after{
     content: '';
     position: absolute;
     height: 2.5rem;
     width: 2.5rem;
-    border-top: .4rem solid #002e5f;
-    border-left: .4rem solid #002e5f;
-}
+    border-top: .4rem solid #EC7D30;
+    border-left: .4rem solid #EC7D30; */
+/* } */
 
 .faq .heading::before, .faq .heading::after{
     border-top: .4rem solid #00bfff;
@@ -85,7 +85,7 @@ body{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #002e5f;
+    background: #EC7D30;
 }
 
 .communicate .btn:hover{
@@ -132,7 +132,7 @@ body{
 }
 
 .header .navbar ul li a:hover{
-    color: #00bfff;
+    color: #EC7D30;
     text-decoration: underline;
 }
 
@@ -847,7 +847,7 @@ body{
         }
         
         .footer .footer-top {
-            background: #002e5f;
+            background: #EC7D30;
             padding: 60px 0 30px 0;
         }
         

@@ -13,6 +13,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.contact-details-and-form {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px; /* Adjust the gap as needed */
+}
+
+.clients-carousel .item img {
+  max-width: 100%; /* Ensure the logo is responsive and fits its container */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove any extra space below the image */
+  margin: 0 auto; /* Center the image if it's smaller than its container */
+}
+
+#about {
+  scroll-margin-top: 100px; /* Adjust this value to match your header's height */
+}
+
+
 a {
   font-weight: 500;
   color: #646cff;
