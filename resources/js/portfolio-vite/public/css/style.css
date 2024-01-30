@@ -353,6 +353,102 @@ body{
 	margin: 10px 0;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ban_sec {
+    width: 100%;
+  }
+  .ban_img {
+    width: 100%;
+    position: relative;
+  }
+  .ban_img img {
+    width: 100%;
+  }
+  .ban_text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .ban_text strong {
+    font: 800 62.22px/70px "Montserrat", sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+  }
+  .ban_text strong span {
+    font: 400 44.44px/52px "Montserrat", sans-serif;
+    letter-spacing: 3px;
+  }
+  .ban_text p {
+    font: 400 25px/30px "Montserrat", sans-serif;
+    color: #fff;
+    margin: 7px 0 25px;
+  }
+  .ban_text a {
+    display: inline-block;
+    font: 800 19.39px/24px "Montserrat", sans-serif;
+    background: #BF6426;
+    border-radius: 26px;
+    color: #fff;
+    padding: 12px 28px;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-decoration:none;
+  }
+  .ban_text a:hover {
+    background: #EC7D30;
+    color: #ffffff;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 700px) {
 	.counters .container {
 		grid-template-columns: repeat(2, 1fr);
