@@ -10,9 +10,11 @@ import Carousel from './Carousel.vue'
 <template>
   <div>
     <header class="header">
-      <a href="#" class="logo"><img src="/images/image.png" alt="" /></a>
+      <a href="#" class="logo"><img style="width: 130px;height: 50px;object-fit: contain;" src="/images/ilabafricalogo2.png" alt="" /></a>
       <div class="fas fa-bars"></div>
       <nav class="navbar">
+
+
         <ul>
           <li><a href="#home">home</a></li>
           <li><a href="#about">about</a></li>
