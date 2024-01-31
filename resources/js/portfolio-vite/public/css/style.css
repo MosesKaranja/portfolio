@@ -23,19 +23,80 @@ body{
     padding-top: 6rem;
     display: inline-block;
     font-size: 3.5rem;
-    color: #002e5f;
+    color: #EC7D30;
     position: relative;
     letter-spacing: .2rem;
 }
 
-.heading::before, .heading::after, .clients .section-header h2::before, .clients .section-header h2::after, .section-head h1::before, .section-head h1::after, .testimonials .section-header h2::before, .testimonials .section-header h2::after, .section-head-1 h4::before, .section-head-1 h4::after{
+/* .heading::before, .heading::after, .clients .section-header h2::before, .clients .section-header h2::after, .section-head h1::before, .section-head h1::after, .testimonials .section-header h2::before, .testimonials .section-header h2::after, .section-head-1 h4::before, .section-head-1 h4::after{
     content: '';
     position: absolute;
     height: 2.5rem;
     width: 2.5rem;
-    border-top: .4rem solid #002e5f;
-    border-left: .4rem solid #002e5f;
+    border-top: .4rem solid #EC7D30;
+    border-left: .4rem solid #EC7D30; */
+/* } */
+
+.clients img {
+    width: auto; /* Maintain the aspect ratio of logos */
+    height: 100px; /* Adjust the height to fit your design */
+    object-fit: contain; /* Ensure the images are scaled correctly within the height */
+    margin: 0 auto; /* Center the logos within their containers */
 }
+
+
+.contact-container {
+    display: flex;
+    justify-content: space-between; /* This will place space between the contact details and form */
+    align-items: flex-start; /* Aligns items at the start of the container */
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines as needed */
+}
+
+.contact-details, .contact-form {
+    flex-basis: 48%; /* Adjusts the base size of each, leaving some space between */
+    /* You can adjust the flex-basis percentage based on your design needs */
+}
+
+/* Ensure the map section takes full width */
+.map {
+    width: 100%;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+}
+
+.footer .col-lg-3, .footer .col-md-6 {
+    flex: 1; /* Allows each column to grow and fill the available space */
+    min-width: 250px; /* Sets a minimum width for each column to maintain readability */
+}
+
+@media (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+        align-items: center; /* Centers the items when they're stacked */
+    }
+
+    .footer .col-lg-3, .footer .col-md-6 {
+        flex: none; /* Resets the flex property */
+        max-width: 100%; /* Allows each item to take the full width */
+    }
+}
+
+.footer .container > .row {
+    display: flex;
+    justify-content: space-between; /* This will space out the child elements evenly */
+    width: 100%; /* Ensure the row takes up the full width */
+}
+
+.footer .col-lg-3, .footer .col-md-6 {
+    margin: 0; /* Remove default margins */
+    flex: 1; /* This will allow each column to grow and take up equal space */
+    padding: 0 15px; /* Add some padding on the sides for spacing, adjust as needed */
+}
+
 
 .faq .heading::before, .faq .heading::after{
     border-top: .4rem solid #00bfff;
@@ -85,14 +146,14 @@ body{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #002e5f;
+    background: #EC7D30;
 }
 
 .communicate .btn:hover{
     letter-spacing: .1rem;
     opacity: .9;
     color: white;
-    background: #00bfff;
+    background: #03043b;
 }
 
 .header{
@@ -132,7 +193,7 @@ body{
 }
 
 .header .navbar ul li a:hover{
-    color: #00bfff;
+    color: #EC7D30;
     text-decoration: underline;
 }
 
@@ -1088,7 +1149,7 @@ body{
         }
         
         .footer .footer-top {
-            background: #002e5f;
+            background: #EC7D30;
             padding: 60px 0 30px 0;
         }
         
