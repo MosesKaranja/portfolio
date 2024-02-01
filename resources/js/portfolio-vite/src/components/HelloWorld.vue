@@ -399,7 +399,7 @@ const count = ref(0);
       </div>
     </div>
 
-    <div class="pt-5 pb-5">
+    <div class="pt-5">
       <div class="container">
         <div class="row">
           <div class="section-head-1 col-sm-12" style="text-align: center">
