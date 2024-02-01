@@ -850,11 +850,20 @@ body{
 
 .clients {
     position: relative;
-    padding: 90px 0;
+    /* padding: 50px 0; */
+    padding-bottom: 50px;
     text-align: center;
-    margin-top: -10rem;
-    margin-bottom: -10rem;
+    /* margin-top: -10rem;
+    margin-bottom: -10rem; */
 }
+
+.clients-carousel img{
+    width: 194px;
+    height: 150px;
+
+}
+
+
 
 .clients .section-header p {
     padding-bottom: 10px;

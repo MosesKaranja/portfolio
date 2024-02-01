@@ -338,7 +338,7 @@ const count = ref(0);
             </div>
           </div>
           <div class="col-lg-4 col-sm-6">
-            <div class="item">
+            <div class="item" style="width: 350px; height: 271px">
               <h6>Wildlife Conservancy Systems</h6>
               <p>
                 The Wildlife Conservancy Systems that we provide have their own
@@ -464,7 +464,7 @@ const count = ref(0);
         </div>
       </div>
 
-      <section>
+      <!-- <section>
         <div class="pt-5 pb-5">
           <div class="row">
             <div class="section-head col-sm-12" id="service">
@@ -488,7 +488,28 @@ const count = ref(0);
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
+
+      <div class="clients">
+        <div class="container">
+          <div class="section-header">
+            <h2>Our Partners</h2>
+            <p>We don't just build softwares, we build your business.</p>
+          </div>
+          <div class="owl-carousel clients-carousel">
+            <img src="/images/img3.png" alt="Partner1 Logo" />
+            <img src="/images/img4.png" alt="Partner2 Logo" />
+            <img src="/images/img5.png" alt="Partner3 Logo" />
+            <img src="/images/img6.png" alt="Partner4 Logo" />
+            <img src="/images/img7.png" alt="Partner5 Logo" />
+            <img src="/images/img8.png" alt="Partner6 Logo" />
+            <img src="/images/img9.png" alt="Partner7 Logo" />
+            <img src="/images/img10.png" alt="Partner6 Logo" />
+            <img src="/images/img11.png" alt="Partner8 Logo" />
+            <img src="/images/img12.png" alt="Partner9 Logo" />
+          </div>
+        </div>
+      </div>
 
       <div class="communicate">
         <h3>OUR CONTACT DETAILS.</h3>
@@ -672,24 +693,20 @@ const count = ref(0);
           </div>
         </div>
 
-              <div class="container">
-        <div class="row align-items-center">
-          <div
-            class="col-md-6 copyright"
-            style="color: #fff; font-size: 1.3rem"
-          >
-            Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
-            Reserved.
+        <div class="container">
+          <div class="row align-items-center">
+            <div
+              class="col-md-6 copyright"
+              style="color: #fff; font-size: 1.3rem"
+            >
+              Copyright &copy; 2024 ItOutsourcing, @iLabAfrica. All Rights
+              Reserved.
+            </div>
           </div>
         </div>
+
+        <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
       </div>
-
-      <a href="#" class="back-to-top"><i class="ion-ios-arrow-up"></i></a>
-
-
-      </div>
-      
-      
     </div>
   </div>
 
